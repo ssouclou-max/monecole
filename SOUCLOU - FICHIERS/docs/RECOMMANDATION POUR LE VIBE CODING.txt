@@ -1,0 +1,91 @@
+# SOUCLOU — Dossier complet de conception et de développement
+
+
+
+Projet prêt pour le développement
+
+Full-stack Web Application
+
+
+
+Mon projet SOUCLOU doit être conçu comme une véritable plateforme de gestion et de gouvernance scolaire, et non comme un simple logiciel de gestion des élèves.
+
+L'ambition est de créer un système capable de centraliser la gestion de plusieurs établissements, de contrôler les responsabilités de chaque intervenant, de suivre les performances scolaires et administratives et de garantir une traçabilité des opérations.
+
+Je te propose une architecture en privilégiant une application évolutive, sécurisée, moderne et adaptée aux réalités des établissements ivoiriens.
+
+## Les 6 documents à produire
+
+| N° | Document                                       | Objectif                                    |
+| -- | ---------------------------------------------- | ------------------------------------------- |
+| 01 | Stack technique — Le Choix des Armes           | Choisir les technologies                    |
+| 02 | Cahier des charges fonctionnel — Le Quoi       | Définir toutes les fonctionnalités          |
+| 03 | Architecture des données — Le Modèle           | Organiser la base de données                |
+| 04 | Environnement de développement — Le Terrain    | Préparer VS Code et les outils              |
+| 05 | Structure du prompt initial — Le System Prompt | Définir les règles de travail de l'IA       |
+| 06 | Prompt maître                                  | Piloter la construction complète de SOUCLOU |
+
+Une décision architecturale importante : SOUCLOU sera conçu comme une plateforme multi-établissements (multi-tenant). Un fondateur pourra donc gérer un établissement ou une chaîne d'établissements depuis un compte central, avec une séparation stricte des données et des permissions.
+
+
+SOUCLOU — Dossier de conception
+
+6 documents Word + guide de lecture
+
+Prêt
+
+# 7 fichiers
+
+01_Stack_Technique.docx
+
+02_Cahier_des_Charges_Fonctionnel.docx
+
+03_Architecture_Donnees_Modele.docx
+
+04_Environnement_Developpement.docx
+
+05_System_Prompt.docx
+
+06_Prompt_Maitre.docx
+
+LISEZ_MOI.docx
+
+## Quelques décisions importantes pour réussir SOUCLOU
+
+J'ai intégré plusieurs recommandations qui méritent ton attention :
+
+1. La sécurité des données : un établissement ne doit jamais pouvoir consulter les informations d'un autre établissement sans autorisation.
+2. La traçabilité : les modifications de notes, de présences, de comptes et de publications doivent laisser des traces.
+3. Les validations : les contenus doivent suivre un circuit d'approbation configurable.
+4. La gestion des comptes : les comptes administratifs doivent être provisionnés et contrôlés, même si leurs titulaires peuvent demander leur activation.
+5. La conformité ivoirienne : la loi n° 2013-450 du 19 juin 2013 relative à la protection des données personnelles doit être prise en compte, avec vérification des formalités auprès de l'Autorité compétente.&#x20;
+
+   [image](https://www.google.com/s2/favicons?domain=https://www.autoritedeprotection.ci\&sz=32)
+
+   Autorité de protection+1
+
+
+Je recommande cette progression :
+
+1. Créer le projet SOUCLOU dans VS Code
+
+   Initialiser Next.js, TypeScript, Tailwind CSS et PostgreSQL.
+2. Construire le socle
+
+   Authentification, utilisateurs, établissements, rôles et permissions.
+3. Construire le tableau de bord du fondateur
+
+   C'est le centre de contrôle de toute la plateforme.
+4. Construire les modules scolaires
+
+   Élèves, personnel, classes, notes, présences, emplois du temps et calendriers.
+5. Construire les validations et la transparence
+
+   Approbations, journal d'audit, avis et rapports.
+6. Tester et déployer
+
+   Sécurité, tests fonctionnels, sauvegardes et mise en production.
+
+Une dernière recommandation : fais du tableau de bord du fondateur le cœur stratégique de SOUCLOU. Il doit permettre de comprendre rapidement ce qui se passe dans chaque établissement, ce qui fonctionne, ce qui dysfonctionne et qui est responsable de chaque opération.
+
+Le prochain objectif est de construire une première version fonctionnelle de SOUCLOU, avec une architecture suffisamment solide pour accueillir progressivement tous les modules sans devoir recommencer le projet.
